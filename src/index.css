@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ruby-bg: #1a1a1a;
+  --ruby-sidebar: #141414;
+  --ruby-border: #2a2a2a;
+  --ruby-pink: #ff2d70;
+  --ruby-hover: #202020;
+}
+
+body {
+  @apply bg-[#1a1a1a] text-gray-100;
+  margin: 0;
+}
+
+.ruby-border {
+  border-color: var(--ruby-border);
+}
